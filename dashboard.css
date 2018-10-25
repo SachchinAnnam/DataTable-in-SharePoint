@@ -1,0 +1,105 @@
+﻿/*Custom CSS*/
+.contentwrapper{
+	margin:10px !important;
+}
+#titlerow,#pageContentTitle{
+	display:none!important;
+	visibility:hidden!important;
+}
+.badge1 {
+	display: inline-block;
+	padding: 0.25em 0.4em;
+	line-height: 120%;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: 0.25rem;
+	color:white!important;
+	width:80%;
+}
+.badge-In-Progress{
+	background: linear-gradient(to bottom right, #56ab2f, #a8e063);
+}
+.badge-Not-Started{
+	background: linear-gradient(to bottom right, #e65c00, #F9D423);
+}
+.badge-On-Hold{
+	background: linear-gradient(to bottom right, #3a7bd5, #00d2ff);
+}
+.badge-On-Hold{
+	background: linear-gradient(to bottom right, #3a7bd5, #00d2ff);
+}
+.badge-Completed{
+	background: linear-gradient(to bottom right, #0aa361, #1adc88);
+}
+.badge-Closed{
+	background: linear-gradient(to bottom right, #93291E, #ED213A);
+}
+.card-header {
+	color: white;
+	text-align: center;
+	font-size: 2em;
+}
+.t2 > .card-header{
+	background: linear-gradient(to bottom right, #56ab2f, #a8e063);
+}
+.t1 > .card-header{
+	background: linear-gradient(to bottom right, #e65c00, #F9D423);
+}
+.t3 > .card-header{
+	background: linear-gradient(to bottom right, #3a7bd5, #00d2ff);
+}
+.t4 > .card-header{
+	background: linear-gradient(to bottom right, #0aa361, #1adc88);
+}
+.t5 > .card-header{
+	background: linear-gradient(to bottom right, #93291E, #ED213A);
+}
+.t2 h5{
+	color: #56ab2f;
+}
+.t1 h5{
+	color: #e65c00;
+}
+.t3 h5{
+	color: #3a7bd5;
+}
+.t4 h5{
+	color: #0aa361;
+}
+.t5 h5{
+	color: #93291E;
+}
+td.details-control {
+	background: url('/sites/Apps/SiteAssets/datatable/details_open.png') no-repeat center center;
+	cursor: pointer;
+}
+tr.shown td.details-control {
+	background: url('/sites/Apps/SiteAssets/datatable/details_close.png') no-repeat center center;
+}
+div.slider {
+	display: none;
+}
+a.buttons-collection {
+	margin-left: 1em;
+}
+table.dataTable tbody td {
+	vertical-align: top!important;
+}
+.display td{
+	text-align:left;
+}
+.select-item{
+	display:none!important;
+}
+#pDashboard_length{
+	float: right;
+	margin-right: 10px;
+}
+.dt-buttons{
+	margin-bottom: 15px;
+	float:right
+}
+.dataTables_filter {
+	float: left !important;
+}

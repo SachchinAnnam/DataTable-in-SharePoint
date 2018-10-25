@@ -1,0 +1,94 @@
+﻿<html>
+<head>
+		<script type="text/javascript" src="/sites/Apps/SiteAssets/datatable/jquery-3.3.1.js"></script>
+		<script type="text/javascript" src="/sites/Apps/SiteAssets/datatable/jquery.dataTables.min.js"></script>
+		<script type="text/javascript" src="/sites/Apps/SiteAssets/datatable/currency.js"></script>
+		<script type="text/javascript" src="/sites/Apps/SiteAssets/datatable/dataTables.bootstrap4.min.js"></script>
+		<script type="text/javascript" src="/sites/Apps/SiteAssets/datatable/dashboard.js"></script>
+		<script type="text/javascript" src="https://cdn.datatables.net/select/1.2.5/js/dataTables.select.min.js"></script>
+		<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/dataTables.buttons.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js"></script>
+		<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.html5.min.js"></script>
+		<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.print.min.js"></script>
+
+
+		<link rel="stylesheet" href="/sites/Apps/SiteAssets/datatable/bootstrap.css">
+		<link rel="stylesheet" href="/sites/Apps/SiteAssets/datatable/dataTables.bootstrap4.min.css">	
+		<link rel="stylesheet" href="/sites/Apps/SiteAssets/datatable/dashboard.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+							
+ <style>
+
+  </style>			
+
+</head>
+<body>
+
+<div class="container">
+<div class="card-deck">
+  <div class="card t1" >
+    <div class="card-header" id="Not-Started" style="width:100%">0</div>
+    <div class="card-body">
+      <h5 class="card-title"><i class="fa fa-ban"></i> Not-Started</h5>
+    </div>
+  </div>
+
+  <div class="card t2" style="width:400px">
+  <div class="card-header" id="In-Progress" style="width:100%">0</div>
+    <div class="card-body">
+      <h5 class="card-title"><i class="fa fa-clock-o"></i> In-Progress</h5>
+    </div>
+  </div>
+  
+    <div class="card t3" >
+    <div class="card-header" id="On-Hold" style="width:100%">0</div>
+    <div class="card-body">
+      <h5 class="card-title"><i class="fa fa-pause-circle-o"></i> On-Hold</h5>
+    </div>
+  </div>
+  
+    <div class="card t4" >
+    <div class="card-header" id="Completed" style="width:100%">0</div>
+    <div class="card-body">
+      <h5 class="card-title"><i class="fa fa-check"></i> Completed</h5>
+    </div>
+  </div>
+ 
+     <div class="card t5" >
+    <div class="card-header" id="Closed" style="width:100%">0</div>
+    <div class="card-body">
+      <h5 class="card-title"><i class="fa fa-close"></i> Closed</h5>
+    </div>
+  </div>
+ 
+</div>
+
+</div>
+<br>
+
+<div class="row">
+
+            <div class="col-md-12">
+            <div class="table-responsive">
+                <table id="pDashboard" class="table" cellspacing="0" style="width:100% !important;">
+			        <thead>  
+			            <tr>
+			            	<th></th>
+			             	<th>ID</th> 
+			                <th>Name</th> 
+                            <th>Status</th> 
+                            <th>Project Owner</th>
+                            <th>Project Sponsor</th>
+                            <!--<th>Estimated Cost($)</th>-->
+			            </tr>  
+			        </thead>  
+			        <tfoot> </tfoot>  
+			    </table>
+            </div>        
+           </div>
+           </div>
+
+</body>
+</html>
